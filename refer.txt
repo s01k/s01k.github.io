@@ -1,0 +1,5 @@
+References
+
+Bottom Border Nav Links: https://www.w3schools.com/howto/howto_css_navbar_border.asp
+
+Creating a responsive navigation bar: https://codenart.github.io/sample/2017/09/03/sample-2-responsive-navbar.html

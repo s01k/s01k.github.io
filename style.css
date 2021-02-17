@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New",monospace;
+ }
+ 
+ /* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  * Styling navigation bar for large screen devices
+  */
+ 
+ .navbar {
+    position: relative; 
+    background: rgba(255, 255, 255, 0.822);
+    position: fixed;
+    top: 0;
+    width: 100%;
+ }
+ 
+ .navbar-left {
+    display: inline-block;
+    margin-left: 15px;
+ }
+ 
+ .navbar-right {
+    display: inline-block;
+    margin-right: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ 
+ .navbar-brand,
+ .navbar .nav-link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+ }
+
+ .navbar a.active {
+   border-bottom: 3px solid black;
+   font-weight: bold;
+  }
+ 
+ .navbar-brand {
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+ }
+
+ .navbar-brand:hover {
+   border-bottom: 3px solid black;
+   font-weight: bold;
+ }
+ 
+ .navbar .nav-link:hover {
+   border-bottom: 3px solid black;
+   font-weight: bold;
+ }
+ 
+ .navbar-collapse,
+ .navbar-toggler {
+    display: none;
+ }
+ 
+ /* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  * Override styles to support mobile devices
+  */
+ 
+ @media (max-width: 842px) {
+    .navbar-right,
+    .navbar-left {
+       display: block;
+       border-top: 1px solid white;
+    }
+ 
+    .navbar-right {
+       position: static;
+    }
+ 
+    .navbar .nav-link {
+       display: block;
+    }
+
+    .navbar a.active {
+        border-bottom: 3px solid black;
+        font-weight: bold;
+      }
+ 
+    .navbar-collapse:checked + .navbar {
+       max-height: 50px;
+       overflow: hidden;
+    }
+ 
+    .navbar-toggler {
+       color: black;
+       display: inline-block;
+       padding: 15px 25px;
+       position: absolute;
+       top: 0;
+       right: 0;
+       border-left: 1px solid white;
+       cursor: pointer;
+    }
+ } /* @media */
