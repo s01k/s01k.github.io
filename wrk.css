@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Header*/
+  .header {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+  }
+  
+ 
+  /* Main column */
+  .column {   
+    width: 100%;
+  }
+
+  .card {
+
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide*/
+  @media screen and (max-width: 800px) {
+    .column{   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+/* Float four image columns side by side */
+.columnc {
+float: left;
+width: 25%;
+padding: 0 10px;
+margin-bottom: 2%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowc {margin: 0 -5px;}
+
+/* Clear floats after the image columns */
+.rowc:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive image columns */
+@media screen and (max-width: 600px) {
+.columnc {
+width: 100%;
+display: block;
+margin-bottom: 20px;
+}
+}
+
+/* Style the image cards */
+.cardc {
+padding: 0px;
+}
+
+img {
+
+padding: 5px;
+width: 150px;
+
+}
+
+img:hover {
+box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+a:link {
+    text-decoration: none;
+  } 

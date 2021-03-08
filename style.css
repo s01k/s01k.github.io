@@ -69,7 +69,7 @@
   * Override styles to support mobile devices
   */
  
- @media (max-width: 842px) {
+ @media (max-width: 874px) {
     .navbar-right,
     .navbar-left {
        display: block;
@@ -105,3 +105,4 @@
        cursor: pointer;
     }
  } /* @media */
+
