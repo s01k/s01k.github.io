@@ -8,6 +8,10 @@
 
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="index.css">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="light.js"></script>
+      
    </head>
    <body>
       <input id="navbar-indicator" class="navbar-collapse" type="checkbox" checked>
@@ -34,25 +38,32 @@
       </nav>
 <br><br><br><br><br>
 
+<div class="padd"><!--padd-->
+
+  <div class="switch">Lights:              
+    <span class="inner-switch">ON</span>
+</div>
+
+
       <div style="padding-left:16px">
         <h3><span style="text-shadow: 2px 2px 2px gray;">Namaste</span></h3>
         <h1>I AM <span style="text-shadow: 2px 2px 2px gray;">SOUVIK SANTRA</span></h1> 
-        <a href="https://linkedin.com/in/souvik-s-6b1815120"><span style="color: black;">Linkedin</span></a>
-        <a href="https://github.com/s01k"><span style="color: black;">Github</span></a>
-      
-        
+        <p><a href="https://linkedin.com/in/souvik-s-6b1815120"><span style="color: royalblue;">Linkedin</span></a> |
+          <a href="https://github.com/s01k"><span style="color: darkslategray;">Github</span></a></p>
       </div>
 
       <!-- About -->
       <a name="about"></a><!--link added for specific target in page-->
       <br><br><br>
+      <div class="rowl">
         <div class="columnl-70">
-          <p style="font-size:36px">About Me</p>
+          <p style="font-size:36px; text-shadow: 2px 2px 2px gray;">About Me</p>
         </div>
-
-      <div style="padding:5px 5px 5px 5px">          
+      </div>
+       
+  <div style="padding:5px 5px 5px 5px">          
         
- <div class="containerl" style="background-color:#f1f1f1">
+   <div class="containerl; cgrey">
     <div class="rowl">
       <div class="columnl-i2">
         <p>As an ordinary as well as all-time inquisitive guy, I never stop to learn something new. I have a knack for designing interfaces, 
@@ -69,7 +80,7 @@
           <img class="imgj" src="p.jpg" width="260" height="280">
       </div>
     </div>
-  </div>
+   </div>
 
   </div>
 
@@ -78,11 +89,12 @@
   <br><br><br>
     <div class="rowl">
       <div class="columnl-70">
-        <p style="font-size:36px">My Skills</p>
+        <p style="font-size:36px; text-shadow: 2px 2px 2px gray;">My Skills</p>
       </div>
     </div>
 
-   <div style="padding:5px 5px 5px 5px">  
+  <div style="padding:5px 5px 5px 5px">  
+
       <div class="row">
          <div class="column">
            <div class="card">
@@ -112,39 +124,38 @@
            </div>
          </div>
      </div>
-   </div>
+
+  </div>
 
    <!-- Projects -->
    <a name="proj"></a>
    <br><br><br>
    <div class="columnl-70">
-    <p style="font-size:36px">My Projects</p>
+    <p style="font-size:36px; text-shadow: 2px 2px 2px gray;">My Projects</p>
   </div>
 
 <div style="padding:5px 5px 5px 5px">  
        <!-- Section 1 -->
-<div class="containerl">
+  <div class="containerl">
    <div class="rowl">
      <div class="columnl-70">
-       <p><span style="font-size:24px">SRM Aumni Portal (Ongoing)</span><br> A portal for connecting SRM 
-        alumnis and information on alumni affairs.<a href="wrk.html">Visit my works.</a></p>
+       <p><span style="font-size:24px">SRM Aumni Portal (Ongoing)</span><br> A portal for connecting SRM alumnis and information on alumni affairs.</p>
        
      </div>
      <div class="columnl-30">
          <img class="imgi" src="s1.png" width="400" height="400">
      </div>
    </div>
- </div>
+  </div>
  
  <!-- Section 2 -->
- <div class="containerl" style="background-color:#f1f1f1">
+ <div class="containerl; cgrey">
    <div class="rowl">
      <div class="columnl-30">
        <img class="imgi" src="s2.png" alt="App" width="400" height="400">
      </div>
      <div class="columnl-70">
-       <p><span style="font-size:24px">SRM Idea Connect</span><br> A portal for ongoing events in SRM, 
-        available project roles for students, etc.<a href="wrk.html">Visit my works.</a></p>
+       <p><span style="font-size:24px">SRM Idea Connect</span><br> A portal for ongoing events in SRM, available project roles for students, etc.</p>
        
      </div>
    </div>
@@ -154,9 +165,9 @@
  <div class="containerl">
    <div class="rowl">
      <div class="columnl-70">
-       <p><span style="font-size:24px">Sample Blog Template</span><br> This is a mock personal 
+      <p><span style="font-size:24px">Sample Blog Template</span><br> This is a mock personal 
         blog-static design created using Adobe XD Tool. 
-        <a href="wrk.html">Visit my works.</a></p>
+        <a href="wrk.html"><span style="color:tomato;">Visit my works</span></a>.</p>
        
      </div>
      <div class="columnl-30">
@@ -166,7 +177,7 @@
  </div>
 
  <!-- Section 4 -->
- <div class="containerl" style="background-color:#f1f1f1">
+ <div class="containerl; cgrey">
   <div class="rowl">
     <div class="columnl-30">
       <img class="imgi" src="p21.png" alt="App" width="400" height="400">
@@ -174,16 +185,18 @@
     <div class="columnl-70">
       <p><span style="font-size:24px">NovoArte Mock Website Design</span><br> 
         Welcome the darker and elegant version of NovoArtè design created using Adobe XD Tool.
-        <a href="wrk.html">Visit my works.</a></p>
+        <a href="wrk.html"><span style="color:tomato;">Visit my works</span></a>.</p>
       
     </div>
   </div>
-</div>
+ </div>
+
+ </div>
+
+</div><!--padd-->
 
 <div class="footer">
   <h2>Created in pure HTML, CSS and JS.</h2>
-</div>
-
 </div>
 
    </body>

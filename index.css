@@ -79,7 +79,11 @@ h4{
 /*Project layout*/
 
   .containerl {
-    padding: 38px;
+    padding: 24px;
+  }
+
+  .cgrey{
+    background-color:#f1f1f1
   }
   
   .rowl:after {
@@ -169,5 +173,42 @@ h4{
     background: #ddd;
     margin-top: 10px;
     font-size: 10px;
+    width: 100%;
   }
+
+ .padd{
+    padding: 0px 20px 0px 20px
+ } 
+
+ @media screen and (max-width: 800px) {
+  .padd{
+    padding: 0px 0px 0px 0px
+ } 
+}
+
+
+.switch {
+  align-self: flex-end;
+  margin: 0.9375rem;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: none;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.dark,
+.dark * {
+    background-color: #222831;
+    color: white;
+    border-color: white;
+}
+
   

@@ -16,12 +16,14 @@
     width: 100%;
   }
 
-  .card {
+  .cgrey{
+    background-color:#f1f1f1
+  }
 
-   background-color: white;
+  .card {
    padding: 20px;
    margin-top: 20px;
-
+   background-color:#f1f1f1
   }
   
   /* Fake image */
@@ -87,17 +89,59 @@ margin-bottom: 20px;
 padding: 0px;
 }
 
+/*Show image of any dimension in uniform size as thumbnail*/
 img {
-
-padding: 5px;
-width: 150px;
-
+  width: 100%;
+  height: 100%;
 }
 
-img:hover {
+.img-thumbnail {
+  min-height: 100px;
+   height: 220px;
+   width: 200px;
+}
+
+.img-thumbnail:hover {
 box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+/*link*/
 a:link {
     text-decoration: none;
   } 
+
+ 
+.padd{
+    padding: 0px 20px 0px 20px
+ } 
+
+ @media screen and (max-width: 800px) {
+  .padd{
+    padding: 0px 0px 0px 0px
+ } 
+}
+
+
+  .switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+  }
+  .inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: none;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+    box-shadow: 2px 2px 2px gray;
+  }
+
+  .dark,
+  .dark * {
+      background-color: #222831;
+      color: white;
+      border-color: white;
+  }  
