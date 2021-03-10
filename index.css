@@ -68,6 +68,10 @@ h4{
     background-color: white;
     color: black;
   }
+
+  .card:hover {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  }
  /* card image */
   .cimg {
     height: 100px;
@@ -76,7 +80,7 @@ h4{
   }
   
 
-/*Project layout*/
+/*Container layout*/
 
   .containerl {
     padding: 24px;
@@ -107,13 +111,13 @@ h4{
   /*about column*/
   .columnl-i1 {
     float: left;
-    width: 20%;
+    width: 30%;
     padding: 20px;
   }
 
   .columnl-i2 {
     float: left;
-    width: 80%;
+    width: 70%;
     padding: 20px;
   }
   
@@ -143,7 +147,6 @@ h4{
 
   .imgj { /*about image*/
     display: block;
-    height: 300;
     max-width: 100%;
     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
   }
@@ -170,14 +173,13 @@ h4{
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 10px;
     width: 100%;
   }
 
  .padd{
-    padding: 0px 20px 0px 20px
+    padding: 0px 40px 0px 40px
  } 
 
  @media screen and (max-width: 800px) {
@@ -186,7 +188,7 @@ h4{
  } 
 }
 
-
+/*dark mode elements*/
 .switch {
   align-self: flex-end;
   margin: 0.9375rem;
@@ -204,6 +206,7 @@ h4{
   box-shadow: 2px 2px 2px gray;
 }
 
+
 .dark,
 .dark * {
     background-color: #222831;
@@ -211,4 +214,89 @@ h4{
     border-color: white;
 }
 
+/*projects*/
+div.gallery {
+  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.gallery:hover {
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-thumbnail {
+  min-height: 100px;
+   height: 240px;
+   border: 6px solid white;
+}
   
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsivep {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1030px) {
+  .responsivep {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsivep {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Experiences*/
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: 1px solid black;
+}
+
+.activee, .accordion:hover {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.accordion:after {
+  content: '\002B';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.activee:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
