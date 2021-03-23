@@ -132,22 +132,17 @@ a:link {
  } 
 }
 
-  .switch {
-    align-self: flex-end;
-    margin: 0.9375rem;
-  }
-  .inner-switch {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid #555;
-    border-radius: none;
-    width: 3.125rem;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0.1875rem;
-    margin-left: 0.3125rem;
-    box-shadow: 2px 2px 2px gray;
-  }
+.switch {
+  align-self: flex-end;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: none;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+}
 
   .dark,
   .dark * {

@@ -135,7 +135,11 @@ h4{
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .buttonl:hover{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
   }
   
   .imgi {
@@ -148,7 +152,7 @@ h4{
   .imgj { /*about image*/
     display: block;
     max-width: 100%;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);*/
   }
   
   /*responsive columns*/
@@ -191,27 +195,14 @@ h4{
 /*dark mode elements*/
 .switch {
   align-self: flex-end;
-  margin: 0.9375rem;
 }
 .inner-switch {
   display: inline-block;
   cursor: pointer;
-  border: 1px solid #555;
   border-radius: none;
   width: 3.125rem;
   text-align: center;
   font-size: 1rem;
-  padding: 0.1875rem;
-  margin-left: 0.3125rem;
-  box-shadow: 2px 2px 2px gray;
-}
-
-
-.dark,
-.dark * {
-    background-color: #222831;
-    color: white;
-    border-color: white;
 }
 
 /*projects*/
@@ -275,11 +266,11 @@ div.desc {
   outline: none;
   font-size: 15px;
   transition: 0.4s;
-  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activee, .accordion:hover {
-    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .accordion:after {
@@ -295,8 +286,15 @@ div.desc {
 
 .panel {
   padding: 0 18px;
-  
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+
+.dark,
+.dark * {
+    background-color: #222831;
+    color: white;
+    border-color: white;
 }

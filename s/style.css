@@ -41,7 +41,7 @@
  }
 
  .navbar a.active {
-   border-bottom: 3px solid black;
+  
    font-weight: bold;
   }
  
@@ -52,12 +52,12 @@
  }
 
  .navbar-brand:hover {
-   border-bottom: 3px solid black;
+  
    font-weight: bold;
  }
  
  .navbar .nav-link:hover {
-   border-bottom: 3px solid black;
+   
    font-weight: bold;
  }
  
@@ -67,14 +67,13 @@
  }
  
  /* * * * * * * * * * * * * * * * * * * * * * * * * * *
-  * Override styles to support mobile devices
+  * For mobile devices
   */
  
  @media (max-width: 874px) {
     .navbar-right,
     .navbar-left {
        display: block;
-       border-top: 1px solid white;
     }
  
     .navbar-right {
@@ -86,7 +85,7 @@
     }
 
     .navbar a.active {
-        border-bottom: 3px solid black;
+   
         font-weight: bold;
       }
  
@@ -102,7 +101,6 @@
        position: absolute;
        top: 0;
        right: 0;
-       border-left: 1px solid white;
        cursor: pointer;
     }
  } /* @media */
