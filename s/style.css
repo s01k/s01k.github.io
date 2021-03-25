@@ -41,7 +41,7 @@
  }
 
  .navbar a.active {
-  
+   text-shadow: 2px 2px 2px gray;
    font-weight: bold;
   }
  
@@ -52,12 +52,12 @@
  }
 
  .navbar-brand:hover {
-  
+   text-shadow: 2px 2px 2px gray;
    font-weight: bold;
  }
  
  .navbar .nav-link:hover {
-   
+   text-shadow: 2px 2px 2px gray;
    font-weight: bold;
  }
  
@@ -85,7 +85,7 @@
     }
 
     .navbar a.active {
-   
+        text-shadow: 2px 2px 2px gray;
         font-weight: bold;
       }
  
