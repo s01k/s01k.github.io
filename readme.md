@@ -1,7 +1,7 @@
 # Build Simple Template with HTML-CSS and JS.
 
 ## Get the Raw version of this portfolio
-<div>Visit<a href="https://github.com/s01k/MinimalPortfolio" title="MinimalPortfolio">MinimalPortfolio</a></div>
+<div>Visit <a href="https://github.com/s01k/MinimalPortfolio" title="MinimalPortfolio">MinimalPortfolio</a></div>
 
 ## References:
 
