@@ -150,3 +150,15 @@ a:link {
       color: white;
       border-color: white;
   }  
+
+  ul {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+  }
+  ul li:before {
+    content: "+";
+    position: absolute;
+    left: 0;
+  }
